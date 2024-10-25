@@ -42,38 +42,37 @@ Prerequisites
 
 1. Clone the Repository:
           ```bash
-          Copy code
           git clone https://github.com/vinodhan-m/real-time-weather-monitoring.git
-          cd real-time-weather-monitoring
+          cd real-time-weather-monitoring ```
 
 2. Backend Setup:
       Navigate to the backend directory:
           ```bash
-          cd backend
+          cd backend ```
           
       Install dependencies:
           ```bash
-          npm install
+          npm install ```
           
       Create a .env file with the OpenWeatherMap API Key:
         -API_KEY=your_openweathermap_api_key
         
       Start the backend server:
           ```bash
-          node index.js
+          node index.js ```
 
 3. Frontend Setup:
       Navigate to the frontend directory:
           ```bash
-          cd ../frontend
+          cd ../frontend ```
 
       Install dependencies:
           ```bash
-          npm install
+          npm install ```
    
       Start the React frontend:
           ```bash
-          npm start
+          npm start ```
    
       Access the Application:
       Open your browser and go to http://localhost:3000 to view the weather summaries.
@@ -95,7 +94,7 @@ real-time-weather-monitoring
     │   └── index.html
     ├── DailySummary.css        # Styling for DailySummary component
     └── README.md
-
+```
 ### Usage
 
 The app continuously fetches real-time weather data and updates the daily summaries.
