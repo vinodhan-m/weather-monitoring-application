@@ -1,0 +1,11 @@
+
+  {
+    "api_key": "12b3eaa4fb2488632e829768b09ea0cb",
+    "cities": ["Chennai", "Bangalore","Delhi", "Mumbai",  "Kolkata", "Hyderabad"],
+    "alert_threshold": 35,
+    "smtp_server": "smtp.example.com",
+    "smtp_port": 587,
+    "email_alert_enabled": true,
+    "email_recipient": "recipient@example.com"
+  }
+  

@@ -1,0 +1,27 @@
+[
+    {
+      "city": "Chennai",
+      "date": "2024-10-01",
+      "avg_temp": 28,
+      "max_temp": 32,
+      "min_temp": 24,
+      "weather_condition": "Sunny"
+    },
+    {
+      "city": "Madurai",
+      "date": "2024-10-02",
+      "avg_temp": 29,
+      "max_temp": 33,
+      "min_temp": 25,
+      "weather_condition": "Cloudy"
+    },
+    {
+      "city": "Coimbatore",
+      "date": "2024-10-03",
+      "avg_temp": 26,
+      "max_temp": 30,
+      "min_temp": 22,
+      "weather_condition": "Rainy"
+    }
+  ]
+  
