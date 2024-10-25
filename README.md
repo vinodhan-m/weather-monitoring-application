@@ -42,7 +42,7 @@ The Weather Monitoring System collects and processes real-time weather data from
 ### Installation
 
 1. Clone the Repository:
-          ```bash
+          ```
           git clone https://github.com/vinodhan-m/real-time-weather-monitoring.git
           cd real-time-weather-monitoring 
           ```
@@ -50,31 +50,31 @@ The Weather Monitoring System collects and processes real-time weather data from
       -Navigate to the backend directory:
           ```
           cd backend 
-   
+          ```
       -Install dependencies:
           ```
           npm install 
-
+          ```
       -Create a .env file with the OpenWeatherMap API Key:
         -API_KEY=your_openweathermap_api_key
         
       -Start the backend server:
           ```
           node index.js 
-          
+          ```
 3. Frontend Setup:
       -Navigate to the frontend directory:
           ```
           cd ../frontend 
-          
+          ```
       -Install dependencies:
           ```
           npm install 
-          
+          ```
       -Start the React frontend:
           ```
           npm start
-   
+          ```
       -Access the Application:
       Open your browser and go to http://localhost:3000 to view the weather summaries.
    
