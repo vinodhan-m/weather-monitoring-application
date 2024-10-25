@@ -4,14 +4,14 @@ This project is a real-time weather monitoring system that retrieves and display
 
 ### Table of Contents
 
-          -Introduction
-          -Features
-          -Technologies Used
-          -Getting Started
-          -Project Structure
-          -Usage
-          -Contributing
-          -License
+-Introduction
+-Features
+-Technologies Used
+-Getting Started
+-Project Structure
+-Usage
+-Contributing
+-License
           
 ### Introduction
 
@@ -19,25 +19,25 @@ The Weather Monitoring System collects and processes real-time weather data from
 
 ### Features
 
-      -Real-time Weather Data: Retrieves weather data for selected cities.
-      -Daily Summaries: Calculates average, max, and min temperatures, along with dominant weather conditions.
-      -Visual Interface: Presents daily summaries in a responsive, card-style layout.
-      -Error Handling: Displays appropriate error messages if data retrieval fails.
+-Real-time Weather Data: Retrieves weather data for selected cities.
+-Daily Summaries: Calculates average, max, and min temperatures, along with dominant weather conditions.
+-Visual Interface: Presents daily summaries in a responsive, card-style layout.
+-Error Handling: Displays appropriate error messages if data retrieval fails.
       
 ### Technologies Used
 
-      -Frontend: React, HTML, CSS
-      -Backend: Node.js, Express
-      -Database: SQLite
-      -API: OpenWeatherMap API
-      -Styling: CSS for layout and styling
+-Frontend: React, HTML, CSS
+-Backend: Node.js, Express
+-Database: SQLite
+-API: OpenWeatherMap API
+-Styling: CSS for layout and styling
       
 ### Getting Started
 
 ### Prerequisites
 
-      Node.js and npm installed
-      OpenWeatherMap API Key (register at OpenWeatherMap)
+Node.js and npm installed
+OpenWeatherMap API Key (register at OpenWeatherMap)
       
 ### Installation
 
@@ -74,8 +74,8 @@ The Weather Monitoring System collects and processes real-time weather data from
       -Start the React frontend:
       ```bash
           npm start
-      ```    
-      -Access the Application:
+      ```
+4. Access the Application:
       Open your browser and go to http://localhost:3000 to view the weather summaries.
    
 ### Project Structure
