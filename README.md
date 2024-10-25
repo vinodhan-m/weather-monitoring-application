@@ -19,18 +19,18 @@ The Weather Monitoring System collects and processes real-time weather data from
 
 ### Features
 
-      Real-time Weather Data: Retrieves weather data for selected cities.
-      Daily Summaries: Calculates average, max, and min temperatures, along with dominant weather conditions.
-      Visual Interface: Presents daily summaries in a responsive, card-style layout.
-      Error Handling: Displays appropriate error messages if data retrieval fails.
+      -Real-time Weather Data: Retrieves weather data for selected cities.
+      -Daily Summaries: Calculates average, max, and min temperatures, along with dominant weather conditions.
+      -Visual Interface: Presents daily summaries in a responsive, card-style layout.
+      -Error Handling: Displays appropriate error messages if data retrieval fails.
       
 ### Technologies Used
 
-      Frontend: React, HTML, CSS
-      Backend: Node.js, Express
-      Database: SQLite
-      API: OpenWeatherMap API
-      Styling: CSS for layout and styling
+      -Frontend: React, HTML, CSS
+      -Backend: Node.js, Express
+      -Database: SQLite
+      -API: OpenWeatherMap API
+      -Styling: CSS for layout and styling
       
 ### Getting Started
 
@@ -50,31 +50,31 @@ The Weather Monitoring System collects and processes real-time weather data from
       -Navigate to the backend directory:
       ```bash
           cd backend 
-          
+      ```
       -Install dependencies:
       ```bash
           npm install 
-          
+      ```   
       -Create a .env file with the OpenWeatherMap API Key:
         -API_KEY=your_openweathermap_api_key
         
       -Start the backend server:
       ```bash
           node index.js 
-          
+      ```    
 3. Frontend Setup:
       -Navigate to the frontend directory:
       ```bash
           cd ../frontend 
-      
+      ```
       -Install dependencies:
       ```bash
           npm install 
-
+      ```
       -Start the React frontend:
       ```bash
           npm start
-          
+      ```    
       -Access the Application:
       Open your browser and go to http://localhost:3000 to view the weather summaries.
    
