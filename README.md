@@ -42,10 +42,10 @@ The Weather Monitoring System collects and processes real-time weather data from
 ### Installation
 
 1. Clone the Repository:
-          ```
-          git clone https://github.com/vinodhan-m/real-time-weather-monitoring.git
-          cd real-time-weather-monitoring 
-          ```
+      ```bash
+      git clone https://github.com/vinodhan-m/real-time-weather-monitoring.git
+      cd real-time-weather-monitoring 
+      
 2. Backend Setup:
       -Navigate to the backend directory:
           ```
