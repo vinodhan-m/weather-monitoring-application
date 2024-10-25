@@ -46,35 +46,35 @@ Prerequisites
           cd real-time-weather-monitoring 
           ```
 2. Backend Setup:
-      Navigate to the backend directory:
+      -Navigate to the backend directory:
           ```bash
           cd backend 
           ```
-      Install dependencies:
+      -Install dependencies:
           ```bash
           npm install 
           ```
-      Create a .env file with the OpenWeatherMap API Key:
+      -Create a .env file with the OpenWeatherMap API Key:
         -API_KEY=your_openweathermap_api_key
         
-      Start the backend server:
+      -Start the backend server:
           ```bash
           node index.js 
           ```
 3. Frontend Setup:
-      Navigate to the frontend directory:
+      -Navigate to the frontend directory:
           ```bash
           cd ../frontend 
           ```
-      Install dependencies:
+      -Install dependencies:
           ```bash
           npm install 
           ```
-      Start the React frontend:
+      -Start the React frontend:
           ```bash
           npm start 
           ```
-      Access the Application:
+      -Access the Application:
       Open your browser and go to http://localhost:3000 to view the weather summaries.
    
 ### Project Structure
