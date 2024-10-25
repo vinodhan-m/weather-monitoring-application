@@ -34,7 +34,8 @@ The Weather Monitoring System collects and processes real-time weather data from
       
 ### Getting Started
 
-Prerequisites
+### Prerequisites
+
       Node.js and npm installed
       OpenWeatherMap API Key (register at OpenWeatherMap)
       
@@ -71,8 +72,9 @@ Prerequisites
           npm install 
           ```
       -Start the React frontend:
-          ```bash
-          npm start 
+          ```
+          npm start
+   
           ```
       -Access the Application:
       Open your browser and go to http://localhost:3000 to view the weather summaries.
