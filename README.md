@@ -56,13 +56,14 @@ OpenWeatherMap API Key (register at OpenWeatherMap)
       npm install 
       ```   
       -Create a .env file with the OpenWeatherMap API Key:
-        -API_KEY=your_openweathermap_api_key
+   
+                  API_KEY=your_openweathermap_api_key
         
       -Start the backend server:
       ```bash
       node index.js 
       ```    
-3. Frontend Setup:
+4. Frontend Setup:
       -Navigate to the frontend directory:
       ```bash
       cd ../frontend 
@@ -75,7 +76,7 @@ OpenWeatherMap API Key (register at OpenWeatherMap)
       ```bash
       npm start
       ```
-4. Access the Application:
+5. Access the Application:
       Open your browser and go to http://localhost:3000 to view the weather summaries.
    
 ### Project Structure
