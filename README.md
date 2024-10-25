@@ -57,7 +57,7 @@ OpenWeatherMap API Key (register at OpenWeatherMap)
       ```   
       -Create a .env file with the OpenWeatherMap API Key:
    
-         API_KEY=your_openweathermap_api_key
+       API_KEY=your_openweathermap_api_key
         
       -Start the backend server:
       ```bash
