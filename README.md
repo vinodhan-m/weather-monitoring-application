@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+### Real-Time Weather Monitoring System with Daily Summaries
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a real-time weather monitoring system that retrieves and displays daily weather summaries for major cities in India using data from the OpenWeatherMap API. It includes a responsive frontend interface and a backend with APIs for weather data retrieval, storage, and display.
 
-## Available Scripts
+### Table of Contents
 
-In the project directory, you can run:
+          -Introduction
+          -Features
+          -Technologies Used
+          -Getting Started
+          -Project Structure
+          -Usage
+          -Contributing
+          -License
+          
+### Introduction
 
-### `npm start`
+The Weather Monitoring System collects and processes real-time weather data from OpenWeatherMap API and generates daily summaries. The system calculates daily averages, maximums, minimums, and dominant weather conditions for each city, providing users with concise weather insights.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+      Real-time Weather Data: Retrieves weather data for selected cities.
+      Daily Summaries: Calculates average, max, and min temperatures, along with dominant weather conditions.
+      Visual Interface: Presents daily summaries in a responsive, card-style layout.
+      Error Handling: Displays appropriate error messages if data retrieval fails.
+      
+### Technologies Used
 
-### `npm test`
+      Frontend: React, HTML, CSS
+      Backend: Node.js, Express
+      Database: SQLite
+      API: OpenWeatherMap API
+      Styling: CSS for layout and styling
+      
+### Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Prerequisites
+      Node.js and npm installed
+      OpenWeatherMap API Key (register at OpenWeatherMap)
+      
+### Installation
 
-### `npm run build`
+1. Clone the Repository:
+          ```bash
+          Copy code
+          git clone https://github.com/vinodhan-m/real-time-weather-monitoring.git
+          cd real-time-weather-monitoring
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Backend Setup:
+      Navigate to the backend directory:
+          ```bash
+          cd backend
+          
+      Install dependencies:
+          ```bash
+          npm install
+          
+      Create a .env file with the OpenWeatherMap API Key:
+        -API_KEY=your_openweathermap_api_key
+        
+      Start the backend server:
+          ```bash
+          node index.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Frontend Setup:
+      Navigate to the frontend directory:
+          ```bash
+          cd ../frontend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+      Install dependencies:
+          ```bash
+          npm install
+   
+      Start the React frontend:
+          ```bash
+          npm start
+   
+      Access the Application:
+      Open your browser and go to http://localhost:3000 to view the weather summaries.
+   
+### Project Structure
+```php
+real-time-weather-monitoring
+├── backend
+│   ├── index.js                # Backend server setup
+│   ├── db.sqlite               # SQLite database file
+│   ├── weatherService.js       # Module for fetching and processing weather data
+│   └── .env                    # Environment variables
+└── frontend
+    ├── src
+    │   ├── components
+    │   │   └── DailySummary.js # Main component for displaying daily summaries
+    │   └── App.js              # Main React App
+    ├── public
+    │   └── index.html
+    ├── DailySummary.css        # Styling for DailySummary component
+    └── README.md
 
-### `npm run eject`
+### Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The app continuously fetches real-time weather data and updates the daily summaries.
+Use the card view on the homepage to view each city’s weather summary, including average, max, and min temperatures.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributions are welcome! Feel free to open issues or submit pull requests to improve functionality or design.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
